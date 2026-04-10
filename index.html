@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Saurabh - AWS Cloud Engineer | Portfolio showcasing cloud infrastructure projects, certifications, and professional experience">
+    <meta name="keywords"
+        content="AWS Cloud Engineer, Cloud Computing, DevOps, AWS Certifications, Cloud Infrastructure">
+    <meta name="author" content="Saurabh">
+    <title>Saurabh - AWS Cloud Engineer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#home">Cloudify with Saurabh<span class="logo-dot">.</span></a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="mailto:saurabh896095@gmail.com?subject=Interview%20Opportunity%20for%20Saurabh%20Yadav%20%E2%80%93%20AWS%20Cloud%20Engineer&body=Hi%20Saurabh%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20I%27m%20impressed%20with%20your%20AWS%20cloud%20engineering%20skills%20and%20hands-on%20project%20experience.%0A%0AWe%20have%20an%20exciting%20opportunity%20that%20I%20believe%20aligns%20perfectly%20with%20your%20expertise%3A%0A%0A%F0%9F%92%BC%20Role%3A%20%5BJob%20Title%5D%0A%F0%9F%8F%A2%20Company%3A%20%5BCompany%20Name%5D%0A%F0%9F%93%8D%20Location%3A%20%5BLocation%20%2F%20Remote%5D%0A%F0%9F%93%85%20Start%20Date%3A%20%5BExpected%20Start%5D%0A%F0%9F%92%B0%20Compensation%3A%20%5BSalary%20Range%20%2F%20Package%5D%0A%0AI%27d%20love%20to%20schedule%20a%20quick%20call%20to%20discuss%20this%20further.%20Please%20share%20your%20availability%20and%20I%20will%20send%20a%20calendar%20invite.%0A%0ALooking%20forward%20to%20connecting%20with%20you!%0A%0ABest%20Regards%2C%0A%5BRecruiter%20Name%5D%0A%5BCompany%20Name%5D%0A%5BPhone%20Number%5D%0A%5BLinkedIn%20Profile%5D"
+                   class="hire-me-btn" id="hire-me-btn" aria-label="Hire Me">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Hire Me</span>
+                </a>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                    <span class="theme-label">Dark</span>
+                </button>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting"><span id="typing-text"></span><span class="typing-cursor">|</span></p>
+                    <h1 class="hero-title">Saurabh Yadav</h1>
+                    <h2 class="hero-subtitle">AWS Cloud Engineer</h2>
+                    <p class="hero-description">
+                        Passionate about designing and deploying scalable cloud infrastructure on AWS.
+                        Specialized in cloud operations, automation, and security best practices.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-eye"></i>
+                            <span class="stat-number" id="visitor-count">Loading...</span>
+                            <span class="stat-label">Visitors</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-certificate"></i>
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                        <a href="Saurabh-Yadav_9140799750.pdf" target="_blank" class="btn btn-secondary" id="download-resume">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/saurabhyadav269/" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Saurabh2600" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://x.com/Saurabhy269" target="_blank" aria-label="X (formerly Twitter)">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/saurabhy2600" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://medium.com/@saurabh269" target="_blank" aria-label="Medium">
+                            <i class="fab fa-medium-m"></i>
+                        </a>
+                        <a href="mailto:saurabh896095@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="floating-card card-1">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud Computing</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fas fa-server"></i>
+                            <span>Cloud Infrastructure</span>
+                        </div>
+                        <div class="floating-card card-4">
+                            <i class="fas fa-brain"></i>
+                            <span>AI & Data</span>
+                        </div>
+                        <img src="images/profile.png" alt="Saurabh Yadav - AWS Cloud Engineer" id="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get To Know</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm an AWS Cloud Engineer at <strong>K21 Technology Pvt. Ltd.</strong>, passionate about
+                        building robust, scalable, and secure cloud infrastructure solutions.
+                    </p>
+                    <p>
+                        With expertise in AWS services including EC2, S3, Lambda, VPC, IAM, and CloudFormation,
+                        I specialize in designing cloud architectures that improve system uptime, optimize costs,
+                        and enhance security posture.
+                    </p>
+                    <p>
+                        My journey in cloud computing began with the AWS RESTART Training Program, where I developed
+                        a strong foundation in cloud concepts and best practices. I'm committed to continuous learning
+                        and staying updated with the latest cloud technologies and industry trends.
+                    </p>
+
+                    <div class="skills-section">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4><i class="fas fa-cloud"></i> Cloud Platforms</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">AWS EC2</span>
+                                    <span class="skill-tag">AWS VPC</span>
+                                    <span class="skill-tag">AWS Lambda</span>
+                                    <span class="skill-tag">AWS S3</span>
+                                    <span class="skill-tag">AWS IAM</span>
+                                    <span class="skill-tag">AWS RDS</span>
+                                    <span class="skill-tag">CloudWatch</span>
+                                    <span class="skill-tag">CloudFormation</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4><i class="fas fa-shield-alt"></i> Cloud Security</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">IAM Policies</span>
+                                    <span class="skill-tag">Security Groups</span>
+                                    <span class="skill-tag">NACLs</span>
+                                    <span class="skill-tag">AWS KMS</span>
+                                    <span class="skill-tag">AWS WAF</span>
+                                    <span class="skill-tag">AWS Config</span>
+                                    <span class="skill-tag">MFA</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4><i class="fas fa-cogs"></i> Automation & IaC</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">CloudFormation</span>
+                                    <span class="skill-tag">AWS Lambda</span>
+                                    <span class="skill-tag">Step Functions</span>
+                                    <span class="skill-tag">EventBridge</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4><i class="fas fa-database"></i> Database & Storage</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Amazon RDS</span>
+                                    <span class="skill-tag">DynamoDB</span>
+                                    <span class="skill-tag">Amazon Aurora</span>
+                                    <span class="skill-tag">Amazon S3</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4><i class="fas fa-desktop"></i> Operating Systems</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Linux</span>
+                                    <span class="skill-tag">Windows</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4><i class="fas fa-users"></i> Soft Skills</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Problem-Solving</span>
+                                    <span class="skill-tag">Incident Management</span>
+                                    <span class="skill-tag">Collaboration</span>
+                                    <span class="skill-tag">Documentation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Career Journey</span>
+                <h2 class="section-title">Professional Experience</h2>
+            </div>
+            <div class="exp-cards-wrapper">
+                <!-- K21 Technology -->
+                <div class="exp-card exp-card--current">
+                    <div class="exp-card-header">
+                        <div class="exp-icon-wrap">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <span class="exp-badge exp-badge--active">Current</span>
+                    </div>
+                    <div class="exp-card-body">
+                        <h3 class="exp-role">AWS Cloud Engineer</h3>
+                        <span class="exp-company">K21 Technology Pvt. Ltd.</span>
+                        <div class="exp-meta">
+                            <span><i class="fas fa-calendar-alt"></i> Feb 2025 – Present</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Remote, India</span>
+                        </div>
+                        <ul class="exp-points">
+                            <li>Designed &amp; deployed scalable AWS infrastructure, improving uptime by <strong>30%</strong></li>
+                            <li>Manage EC2, S3, IAM, VPC, CloudWatch, Lambda across production environments</li>
+                            <li>Lead cross-functional DevOps-aligned cloud adoption initiatives</li>
+                        </ul>
+                    </div>
+                    <div class="exp-card-footer">
+                        <span class="exp-tech-pill">EC2</span>
+                        <span class="exp-tech-pill">S3</span>
+                        <span class="exp-tech-pill">Lambda</span>
+                        <span class="exp-tech-pill">VPC</span>
+                    </div>
+                </div>
+
+                <!-- Labelbox -->
+                <div class="exp-card exp-card--prev">
+                    <div class="exp-card-header">
+                        <div class="exp-icon-wrap">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <span class="exp-badge">Contract</span>
+                    </div>
+                    <div class="exp-card-body">
+                        <h3 class="exp-role">Cloud Data Operations Engineer</h3>
+                        <span class="exp-company">Labelbox Inc.</span>
+                        <div class="exp-meta">
+                            <span><i class="fas fa-calendar-alt"></i> Jul 2024 – Jan 2025</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Remote, India</span>
+                        </div>
+                        <ul class="exp-points">
+                            <li>Prepared &amp; validated high-quality datasets for AI/ML model training</li>
+                            <li>Maintained data confidentiality &amp; IP compliance per client contracts</li>
+                            <li>Collaborated with global teams on scalable cloud-based AI workflows</li>
+                        </ul>
+                    </div>
+                    <div class="exp-card-footer">
+                        <span class="exp-tech-pill">AI/ML</span>
+                        <span class="exp-tech-pill">Data Ops</span>
+                        <span class="exp-tech-pill">Cloud</span>
+                    </div>
+                </div>
+
+                <!-- AWS RESTART -->
+                <div class="exp-card exp-card--training">
+                    <div class="exp-card-header">
+                        <div class="exp-icon-wrap">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <span class="exp-badge">Training</span>
+                    </div>
+                    <div class="exp-card-body">
+                        <h3 class="exp-role">AWS Cloud Trainee</h3>
+                        <span class="exp-company">AWS RESTART Program</span>
+                        <div class="exp-meta">
+                            <span><i class="fas fa-calendar-alt"></i> Nov 2023 – Apr 2024</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Remote, India</span>
+                        </div>
+                        <ul class="exp-points">
+                            <li>Intensive training on EC2, S3, IAM, RDS &amp; Lambda via hands-on labs</li>
+                            <li>Applied cloud security best practices &amp; IAM compliance frameworks</li>
+                            <li>Configured VPCs, networking, and cost-optimized cloud infrastructure</li>
+                        </ul>
+                    </div>
+                    <div class="exp-card-footer">
+                        <span class="exp-tech-pill">EC2</span>
+                        <span class="exp-tech-pill">IAM</span>
+                        <span class="exp-tech-pill">RDS</span>
+                        <span class="exp-tech-pill">VPC</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-showcase">
+
+                <!-- Project 1 -->
+                <div class="showcase-card">
+                    <div class="showcase-image-panel">
+                        <div class="showcase-number">01</div>
+                        <img src="images/project-3tier.svg" alt="3-Tier Architecture on AWS">
+                        <div class="showcase-image-overlay">
+                            <span class="showcase-category"><i class="fas fa-layer-group"></i> Cloud Architecture</span>
+                        </div>
+                    </div>
+                    <div class="showcase-content-panel">
+                        <div class="showcase-top">
+                            <span class="showcase-label">Featured Project</span>
+                            <div class="showcase-actions-top">
+                                <a href="#" class="showcase-icon-btn" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="showcase-icon-btn" title="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="showcase-title">3-Tier Architecture<br><span>on AWS</span></h3>
+                        <p class="showcase-desc">Designed and deployed a production-grade, scalable 3-tier web application on AWS featuring intelligent load balancing, auto-scaling across multiple Availability Zones, and a fully managed relational database layer for maximum resilience.</p>
+                        <div class="showcase-highlights">
+                            <div class="highlight-stat">
+                                <span class="highlight-val">99.9%</span>
+                                <span class="highlight-key">Uptime SLA</span>
+                            </div>
+                            <div class="highlight-stat">
+                                <span class="highlight-val">Multi-AZ</span>
+                                <span class="highlight-key">Availability</span>
+                            </div>
+                            <div class="highlight-stat">
+                                <span class="highlight-val">Auto</span>
+                                <span class="highlight-key">Scaling</span>
+                            </div>
+                        </div>
+                        <div class="showcase-tech">
+                            <span class="tech-tag">AWS EC2</span>
+                            <span class="tech-tag">VPC</span>
+                            <span class="tech-tag">ELB</span>
+                            <span class="tech-tag">RDS</span>
+                            <span class="tech-tag">Auto Scaling</span>
+                            <span class="tech-tag">CloudWatch</span>
+                        </div>
+                        <div class="showcase-cta">
+                            <a href="#" class="showcase-btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="showcase-btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="showcase-card showcase-card--reverse">
+                    <div class="showcase-image-panel">
+                        <div class="showcase-number">02</div>
+                        <img src="images/project-bloodbank.svg" alt="AWS Dynamic Blood Bank">
+                        <div class="showcase-image-overlay">
+                            <span class="showcase-category"><i class="fas fa-heartbeat"></i> Serverless App</span>
+                        </div>
+                    </div>
+                    <div class="showcase-content-panel">
+                        <div class="showcase-top">
+                            <span class="showcase-label">Featured Project</span>
+                            <div class="showcase-actions-top">
+                                <a href="#" class="showcase-icon-btn" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="showcase-icon-btn" title="GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="showcase-title">AWS Dynamic<br><span>Blood Bank System</span></h3>
+                        <p class="showcase-desc">Built a fully serverless blood bank management platform using AWS Lambda and DynamoDB, enabling real-time inventory tracking, automated donor notifications via SNS, and a highly available REST API through API Gateway.</p>
+                        <div class="showcase-highlights">
+                            <div class="highlight-stat">
+                                <span class="highlight-val">100%</span>
+                                <span class="highlight-key">Serverless</span>
+                            </div>
+                            <div class="highlight-stat">
+                                <span class="highlight-val">Real-time</span>
+                                <span class="highlight-key">Inventory</span>
+                            </div>
+                            <div class="highlight-stat">
+                                <span class="highlight-val">REST</span>
+                                <span class="highlight-key">API</span>
+                            </div>
+                        </div>
+                        <div class="showcase-tech">
+                            <span class="tech-tag">AWS Lambda</span>
+                            <span class="tech-tag">DynamoDB</span>
+                            <span class="tech-tag">API Gateway</span>
+                            <span class="tech-tag">S3</span>
+                            <span class="tech-tag">SNS</span>
+                            <span class="tech-tag">CloudWatch</span>
+                        </div>
+                        <div class="showcase-cta">
+                            <a href="#" class="showcase-btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="showcase-btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Credentials</span>
+                <h2 class="section-title">Certifications</h2>
+            </div>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>AWS Certified Cloud Practitioner</h3>
+                        <p class="cert-issuer">Amazon Web Services</p>
+                        <p class="cert-description">Foundational understanding of AWS Cloud, services, and terminology
+                        </p>
+                        <a href="https://drive.google.com/file/d/1QLlM4n7OOKITQVnDL07RFDCIesxhzrS0/view?usp=sharing" target="_blank" class="cert-verify">
+                            <i class="fas fa-certificate"></i> Verify Credential
+                        </a>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>AWS Cloud Practitioner Essentials</h3>
+                        <p class="cert-issuer">Amazon Web Services</p>
+                        <p class="cert-description">Comprehensive training on AWS cloud concepts and core services</p>
+                        <a href="https://drive.google.com/file/d/1QZ4awFeJT2s2UNaaa3F9bkir9dqHY6hp/view?usp=sharing" target="_blank" class="cert-verify">
+                            <i class="fas fa-certificate"></i> View Certificate
+                        </a>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>CNSS Certified Network Security Specialist</h3>
+                        <p class="cert-issuer">ICSI (International CyberSecurity Institute)</p>
+                        <p class="cert-description">Advanced certification in network security, threat analysis, and
+                            cybersecurity best practices</p>
+                        <a href="https://drive.google.com/file/d/1uQU-WbonlvukjGssXiT3ZzrN0hBM-oev/view?usp=sharing" target="_blank" class="cert-verify">
+                            <i class="fas fa-certificate"></i> Verify Credential
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Insights</span>
+                <h2 class="section-title">Latest Blog Posts</h2>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog-data-bitcoin-ai.png" alt="Will Data Become the Next Bitcoin in the AI Era?">
+                        <span class="blog-category">AI &amp; Data</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-calendar"></i> March 2025</span>
+                            <span><i class="fas fa-clock"></i> 5 min read</span>
+                        </div>
+                        <h3>Will Data Become the Next Bitcoin in the AI Era?</h3>
+                        <p>Exploring how data is rapidly becoming the most valuable asset in the AI-driven world — and whether it will mirror Bitcoin's meteoric rise...</p>
+                        <a href="https://medium.com/@saurabh269/will-data-become-the-next-bitcoin-in-the-ai-era-01ea0619c584" target="_blank" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog-multiaz-aws-resilience.png" alt="Multi-AZ Isn't Enough: Lessons from the AWS Middle East Drone Strikes">
+                        <span class="blog-category">AWS Resilience</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-calendar"></i> March 2025</span>
+                            <span><i class="fas fa-clock"></i> 7 min read</span>
+                        </div>
+                        <h3>Multi-AZ Isn't Enough: Lessons from the AWS Middle East Drone Strikes</h3>
+                        <p>When entire AWS regions go dark due to real-world events, Multi-AZ alone won't save you — here's what true resilience looks like...</p>
+                        <a href="https://medium.com/@saurabh269/multi-az-isnt-enough-lessons-from-the-aws-middle-east-drone-strikes-95ca57cded0a" target="_blank" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog-placeholder.svg" alt="Blog post">
+                        <span class="blog-category">DevOps</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-calendar"></i> Coming Soon</span>
+                            <span><i class="fas fa-clock"></i> 6 min read</span>
+                        </div>
+                        <h3>Building Serverless Applications with AWS Lambda</h3>
+                        <p>Discover how to build cost-effective, scalable applications using AWS Lambda and serverless
+                            architecture...</p>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your
+                        vision.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:saurabh896095@gmail.com">saurabh896095@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Lucknow, Uttar Pradesh, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/saurabhyadav269/" target="_blank">Connect with
+                                    me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links-contact">
+                        <a href="https://www.linkedin.com/in/saurabhyadav269/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Saurabh2600" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/Saurabhy269" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/saurabhy2600" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://medium.com/@saurabh269" target="_blank"><i class="fab fa-medium-m"></i></a>
+                        <a href="mailto:saurabh896095@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- About Column -->
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <h3>Saurabh Yadav<span class="logo-dot">.</span></h3>
+                        <p>AWS Cloud Engineer</p>
+                    </div>
+                    <p class="footer-tagline">
+                        Building scalable, secure, and cost-effective cloud infrastructure solutions on AWS.
+                        Passionate about cloud innovation and DevOps excellence.
+                    </p>
+                    <div class="footer-aws-badge">
+                        <i class="fab fa-aws"></i>
+                        <span>AWS Certified Cloud Practitioner</span>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#certifications">Certifications</a>
+                        <a href="#blog">Blog</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-section">
+                    <h4>Expertise</h4>
+                    <div class="footer-links">
+                        <a href="#projects">Cloud Architecture</a>
+                        <a href="#projects">AWS Infrastructure</a>
+                        <a href="#projects">DevOps Solutions</a>
+                        <a href="#projects">Cloud Security</a>
+                        <a href="#projects">Cost Optimization</a>
+                        <a href="#projects">Automation & IaC</a>
+                    </div>
+                </div>
+
+                <!-- Contact & Social -->
+                <div class="footer-section">
+                    <h4>Connect With Me</h4>
+                    <div class="footer-contact-info">
+                        <div class="footer-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:saurabh896095@gmail.com">saurabh896095@gmail.com</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Lucknow, Uttar Pradesh, India</span>
+                        </div>
+
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/saurabhyadav269/" target="_blank" class="linkedin"
+                            aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Saurabh2600" target="_blank" class="github" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://x.com/Saurabhy269" target="_blank" class="x-twitter"
+                            aria-label="X (formerly Twitter)">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/saurabhy2600" target="_blank" class="instagram"
+                            aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://medium.com/@saurabh269" target="_blank" class="medium" aria-label="Medium">
+                            <i class="fab fa-medium-m"></i>
+                        </a>
+                        <a href="mailto:saurabh896095@gmail.com" class="email" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; 2026 Saurabh Yadav. All rights reserved.
+                    <span>|</span>
+                    Built with <i class="fas fa-heart"></i> and deployed on
+                    <i class="fab fa-aws"></i> AWS Cloud with Saurabh
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Typing Animation Script -->
+    <script>
+        // Dynamic typing animation for hero greeting
+        const typingText = document.getElementById('typing-text');
+        const phrases = [
+            "Hello, I'm",
+            "Hi there, I'm",
+            "Welcome! I'm",
+            "Hey, I'm"
+        ];
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        let typingSpeed = 100;
+
+        function typeEffect() {
+            const currentPhrase = phrases[phraseIndex];
+
+            if (isDeleting) {
+                typingText.textContent = currentPhrase.substring(0, charIndex - 1);
+                charIndex--;
+                typingSpeed = 50;
+            } else {
+                typingText.textContent = currentPhrase.substring(0, charIndex + 1);
+                charIndex++;
+                typingSpeed = 100;
+            }
+
+            if (!isDeleting && charIndex === currentPhrase.length) {
+                // Pause at end of phrase
+                typingSpeed = 2000;
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+                typingSpeed = 500;
+            }
+
+            setTimeout(typeEffect, typingSpeed);
+        }
+
+        // Start typing animation when page loads
+        document.addEventListener('DOMContentLoaded', typeEffect);
+    </script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

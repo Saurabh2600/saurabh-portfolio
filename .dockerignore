@@ -1,0 +1,13 @@
+# Exclude development & documentation files from Docker image
+README.md
+AWS_DEPLOYMENT.md
+Dockerfile
+.dockerignore
+.git
+.gitignore
+*.md
+
+# Exclude OS files
+.DS_Store
+Thumbs.db
+desktop.ini
